@@ -4,6 +4,19 @@ User-visible changes worth mentioning.
 
 ## master
 
+- [#970] Escape certain attributes in authorization forms.
+
+## 4.2.5
+
+- [#936] Deprecate `Doorkeeper#configured?`, `Doorkeeper#database_installed?`, and
+  `Doorkeeper#installed?`
+- [#909] Add `InvalidTokenResponse#reason` reader method to allow read the kind
+  of invalid token error.
+- [#928] Test against more recent Ruby versions
+- Small refactorings within the codebase
+- [#921] Switch to Appraisal, and test against Rails master
+- [#892] Add minimum Ruby version requirement
+
 ## 4.2.0
 
 - Security fix: Address CVE-2016-6582, implement token revocation according to
